@@ -1,7 +1,15 @@
+# Specify Python version compatible with Streamlit Cloud
+python>=3.11
+
+# Core dependencies
 streamlit>=1.30.0
 pandas>=2.0.0
 plotly>=5.20.0
 tabulate>=0.9.0
-streamlit-plotly-events>=0.5.0
+
+# Optional visualization libraries
 seaborn>=0.12.0
 matplotlib>=3.8.0
+
+# Streamlit events for Plotly click interactions
+streamlit-plotly-events>=0.5.0
